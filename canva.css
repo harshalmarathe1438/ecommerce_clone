@@ -1,0 +1,412 @@
+*{
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+
+.navbar{
+   
+     height:80px;
+     background-color: #0f1111;
+     color: #f3f3f3;
+     display: flex;
+     align-items:center;
+
+     justify-content: space-evenly;
+}
+
+.nav_logo{
+
+    height: 50px;
+    width: 110px;
+
+}
+
+.logo{
+
+    background-image: url("logo2.svg");
+    background-size:auto;
+    height: 50px;
+    width: 120px;  
+}
+
+.border{
+
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+
+    border: 1.5px solid white;
+}
+
+.add1{
+
+  color: #cccccc;
+  font-size: 1rem;
+  margin-left: 20px;
+
+}
+
+.add2{
+
+  font-size: 1rem;
+  margin-left: 3px;
+
+}
+
+.icon{
+
+    display: flex;
+    margin: 5px;
+
+}
+
+/* BOX 3  */
+
+.nav_search{   
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 165, 165);
+    height: 30px;
+    width: 620px;
+    
+    border-radius: 4px;
+
+}
+
+.search_select{
+
+  background-color: #f3f3f3;
+  width: 60px;
+  height: 32px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+
+}
+
+.search_input{
+
+    width: 100%;
+    height: 30px;
+    
+    font-size: 1rem;
+    border: none;
+}
+
+.search_icon{
+
+    width: 42px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    background-color: #febd68;
+
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: none;
+}
+
+
+/* box 4 */
+
+span{
+
+    font-size: 0.7rem;
+}
+
+.nav_second{
+
+font-size: 0.85rem;
+font-weight: 700;
+}
+
+
+.nav_cart i {
+
+    font-size: 30px;
+
+}
+
+.nav_cart{
+
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+
+/* NEXT PANEL CREATION  */
+
+
+.panel{
+ 
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.panel_ops p{
+
+    display: inline;
+    margin: 14px;
+    font-weight: 500;
+
+}
+
+.panel_ops{
+
+    width: 75%;
+    font-size: 0.7rem;
+}
+
+.panel_deal{
+
+    font-size: 0.75;
+    font-weight: 700;
+}
+
+/* HERO SECTIO BACKGROUND IMAGE  */
+
+.hero_sec{
+
+    background-image: url(hero.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+
+}
+
+.hero_msg{
+
+    background-color: white;
+    color: #0f1111;
+    width: 80%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin: 25px;
+    
+}
+
+.hero_msg a{
+
+    color: #007185;
+    
+}
+
+
+/* BOX SECTION  */
+
+
+.shop_sec{
+
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #635e98;
+}
+
+
+.box{
+    
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    background-size: cover;
+
+
+    padding: 20px 0px 15px;
+    margin: 15px;
+   
+    
+}
+
+.box_img{
+
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box_content{
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+
+}
+
+.box_content p{
+   
+    color: #007185;
+
+}
+
+
+/* BOOK SECTION  */
+
+
+
+.book_sec{
+
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    
+}
+
+.book{
+   
+  
+   background-color: #f3f3f3;
+   height: 150px;
+   width: 130px;
+
+   background-size: cover;
+
+  margin: 25px;
+  padding: 15px;
+
+}
+
+.content{
+
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER STYLE */
+
+
+footer{
+
+
+    margin-top: 15px;
+}
+
+.foot_panel{
+
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+}
+
+.foot_panel2{
+
+    background-color:#222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+
+ul{
+
+    margin-top: 15px;
+}
+
+ul a{
+
+    display: block;
+    font-size: 0.85rem;
+    margin: 10px;
+    color: #dddddd;
+}
+
+
+.foot_panel3{
+
+    background-color: #222f3d;
+    color: white;
+    height: 70px;
+
+    border-top: 0.5px solid white;
+}
+
+.logo{
+
+    background-image: url("logo2.svg");
+    background-size:cover;
+    height: 50px;
+    width: 100px; 
+
+
+}
+
+
+.foot_panel4{
+
+    background-color: #0f1111;
+    color: white;
+    height: 100px;
+
+    font-size:0.9rem; 
+    text-align: center;
+}
+
+.pages{
+
+   
+    padding: 25px;
+
+}
+
+.copy{
+
+
+    padding-top: 5px;
+
+}
+
+
+
+
